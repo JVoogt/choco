@@ -3,11 +3,15 @@ Invoke-WebRequest https://chocolatey.org/install.ps1 -UseBasicParsing | Invoke-E
 choco install 7zip
 choco install adobereader
 choco install angryip
+choco install anydesk
 choco install autohotkey
+choco install bleachbit
 choco install brave
 choco install choco-upgrade-all-at-startup
+choco install discord
 choco install ditto
 choco install dropbox
+choco install eartrumpet
 choco install etcher
 choco install everything
 choco install filezilla
@@ -16,6 +20,8 @@ choco install git
 choco install google-drive-file-stream
 choco install handle --ignore-checksums
 choco install hwmonitor
+choco install javaruntime
+choco install lockhunter
 choco install microsoftazurestorageexplorer
 choco install microsoft-teams
 choco install notepadplusplus
@@ -27,13 +33,15 @@ choco install putty
 choco install slack
 choco install soapui
 choco install spotify
-choco install snagit
+choco install sharex
 choco install sql-server-management-studio
+choco install sysinternals
 choco install tor-browser
 choco install transmission
 choco install vscode
 choco install vlc
 choco install wget
+choco install windirstat 
 choco install winscp
 choco install whatsapp
 
