@@ -28,6 +28,7 @@ choco install notepadplusplus
 choco install obs-studio
 choco install obs-virtualcam
 choco install openvpn
+choco install P4Merge
 choco install pandoc
 choco install putty
 choco install slack
@@ -44,6 +45,14 @@ choco install wget
 choco install windirstat 
 choco install winscp
 choco install whatsapp
+
+choco install -y wsl 
+choco install wsl-debiangnulinux --ignore-checksums
+
+choco install -y desktopicons-winconfig --params "'/Desktop:YES /UserFiles:NO /ControlPanel:NO /Network:NO /RecycleBin:YES /OneDrive:NO'"
+choco install -y explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWENCRYPTED:yes /SHOWCHECKBOXES:no /USESHARINGWIZARD:no /USEVIEW:details'"
+
+choco install windows-iso-downloader --ignore-checksums
 
 choco list --local-only
 choco outdated
