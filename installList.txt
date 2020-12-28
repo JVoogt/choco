@@ -1,3 +1,5 @@
+Invoke-WebRequest https://chocolatey.org/install.ps1 -UseBasicParsing | Invoke-Expression
+
 choco install 7zip
 choco install adobereader
 choco install angryip
@@ -5,24 +7,37 @@ choco install autohotkey
 choco install brave
 choco install choco-upgrade-all-at-startup
 choco install ditto
+choco install dropbox
+choco install etcher
 choco install everything
 choco install filezilla
 choco install firacode
 choco install git
 choco install google-drive-file-stream
-choco install handle
+choco install handle --ignore-checksums
 choco install hwmonitor
 choco install microsoftazurestorageexplorer
 choco install microsoft-teams
 choco install notepadplusplus
+choco install obs-studio
+choco install obs-virtualcam
 choco install openvpn
 choco install pandoc
+choco install putty
 choco install slack
 choco install soapui
 choco install spotify
-choco install tor-browser
 choco install snagit
 choco install sql-server-management-studio
+choco install tor-browser
+choco install transmission
 choco install vscode
+choco install vlc
 choco install wget
+choco install winscp
 choco install whatsapp
+
+choco list --local-only
+choco outdated
+
+choco upgrade all -y
